@@ -1,5 +1,7 @@
 # Printing the prime number in the range
 
+# Creating a function
+
 def prime_range():
     start_num = int(input("Enter the start number: "))
     end_num = int(input("Enter the end number: "))
@@ -14,5 +16,6 @@ def prime_range():
             else:
                 print(num)
 
+# Calling the function
 
 prime_range()

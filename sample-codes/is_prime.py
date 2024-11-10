@@ -1,6 +1,7 @@
 # This is the code to check if the number is prime or not
 
 # Creating a function
+
 def is_prime_number():
     number = int(input("Enter the number: "))
     is_prime = True
