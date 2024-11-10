@@ -1,14 +1,18 @@
 # Printing the prime number in the range
 
-start = 2
-end = 10
+def prime_range():
+    start_num = int(input("Enter the start number: "))
+    end_num = int(input("Enter the end number: "))
 
-print("The prime numbers between" , start , "to" , end , "are:")
+    print("The Prime numbers between the range" , start_num , "and" , end_num , "are: ")
 
-for num in range(start, end+1):
-    if num > 1 :
-        for i in range (2, num):
-            if (num % i) == 0:
-                break
+    for num in range (start_num , end_num + 1 ):
+        if num > 1:
+            for i in range (2 , num):
+                if (num % i) == 0:
+                    break
             else:
                 print(num)
+
+
+prime_range()
