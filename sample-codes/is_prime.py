@@ -12,9 +12,9 @@ def is_prime_number():
             break
 
     if is_prime :
-        print("The" , number , "is prime number")
+        print(number , "is prime number")
     else:
-        print("The", number , "is not a prime number")
+        print(number , "is not a prime number")
 
 
 # Using the function
