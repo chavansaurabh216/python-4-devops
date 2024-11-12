@@ -101,6 +101,3 @@ Day-5 | Functions & Modules
 	Modules: A module is a file containing Python definitions and statements. Its like a template that will have the functions inside.
 
 -------------------------------------------------------------------------------------------------------
-
-Day-6 | Basic Networking Concepts
-	
